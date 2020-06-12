@@ -1,0 +1,579 @@
+@charset "UTF-8";
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: #141412;
+    line-height: 1.5;
+    margin: 0;
+    background-image: url(http://kourijima.info/wp-content/uploads/2013/08/backgroundimage.jpg);
+}
+
+ul {
+    list-style-type: square;
+}
+
+menu, ol, ul {
+    margin: 16px 0;
+    padding: 0 0 0 21px;
+    font-size: 15px;
+}
+
+a {
+    color: #0095d9;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 33px 0;
+}
+
+#page {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    background-image: url(http://kourijima.info/wp-content/uploads/2013/09/headerBackground.jpeg);
+    background-position: center 0%;
+    box-shadow: 0 1px 1px #CCC;
+    background-size: cover;
+}
+
+.header-inner {
+    width: 960px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+@media (max-width: 998px) {
+    .header-inner {
+        width: 100%;
+    }
+}
+
+@media (max-width: 643px) {
+    .header-inner {
+        width: 100%;
+    }
+}
+
+.site-title {
+    margin: 0;
+    padding: 16px 0;
+    -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+    width: 181px;
+    float: left;
+    /* background-color: royalblue; */
+}
+
+@media (max-width: 999px) {
+    .site-title {
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+@media (max-width: 999px) {
+    .site-title {
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    vertical-align: middle;
+}
+
+.header-inner ul {
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+}
+
+@media (max-width: 999px) {
+.header-inner ul {
+    float: none;
+    margin: 0 auto 10px auto;
+    padding: 5px 0 10px 0;
+    text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+.header-inner ul {
+    float: none;
+    margin: 0 auto 10px auto;
+    padding: 5px 0 10px 0;
+    text-align: center;        
+    }
+}
+
+.header-inner ul li {
+    float: left;
+    margin: 0 0 5px 15px;
+}
+
+@media (max-width: 999px) {
+.header-inner ul li {
+    margin: 0 8px;
+    display: inline-block;
+    float: none;
+}}
+
+@media (max-width: 767px) {
+.header-inner ul li {
+    margin: 0 8px;
+    display: inline-block;
+    float: none;
+}}
+
+.header-inner ul li a {
+    color: white;
+    -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+
+/* headerの設定　ここまで */
+
+.site-inner {
+    width: 960px;
+    margin: 0 auto;
+}
+
+@media (max-width: 999px){
+.site-inner {
+    width: 100%;
+} 
+}
+
+@media (max-width: 999px) {
+.site-inner {
+    width: 94%;
+}
+}
+
+.site-main {
+    position: relative;
+}
+
+.content-area {
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #ddd;
+    border: 1px solid #eee;
+}
+
+.hentry {
+    padding: 40px 0;
+}
+
+@media (max-width: 999px) {
+    .hentry {
+    padding: 40px 20px;
+    }
+}
+
+@media (max-width: 698px) {
+    .hentry {
+        padding: 40px 20px;
+        }
+    }
+
+.entry-header, .entry-content {
+    margin: 0 auto;
+    max-width: 860px;
+    width: 100%;
+}
+
+.page-title {
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 33px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    line-height: 1.3;
+    font-weight: normal;
+}
+
+.page-title {
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+.page-thumbnail {
+    margin-bottom: 24px;
+}
+
+.entry-header, .entry-content {
+    margin: 0 auto;
+    max-width: 860px;
+    width: 100%;
+}
+
+p {
+    margin: 0 0 24px;
+    font-size: 15px;
+}
+
+.hotel h3:first-child {
+    border-top: 1px dotted #0095d9;
+    margin-top: 0px;
+    padding-top: 22px;
+}
+
+.hotel h3 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 22px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    line-height: 1.3;
+    font-weight: normal;
+}
+
+.hotel ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.hotel ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.hotel ul li a {
+    padding: 10px 10px;
+    border: 1px solid #0095d9;
+    text-decoration: none;
+    border-radius: 3px;
+    content: " ";
+    display: block;
+    clear: both;
+    font-size: 13px;
+}
+
+a:visited {
+    color: #0095d9;
+}
+
+.site-footer {
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px dotted #999;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 12px 0 4px 0;
+}
+
+.footer-nav ul li {
+    float: left;
+    margin: 0 8px;
+}
+
+.site-footer a {
+    color: #666666;
+}
+
+/* 島のビーチ */
+
+map img, .beach img {
+    width: 460px;
+}
+
+.map img, .beach img, .map ol, .beach ol {
+    float: left;
+}
+
+.entry-content img, .entry-summary img, .comment-content img, .widget img, .wp-caption {
+    max-width: 100%;
+}
+
+.entry-content img, .entry-summary img, .comment-content img[height], img[class*="align"], img[class*="wp-image-"], img[class*="attachment-"] {
+    height: auto;
+}
+
+img.size-full, img.size-large, img.wp-post-image {
+    height: auto;
+    max-width: 100%;
+}
+
+img.alignnone {
+    margin: 5px 0;
+}
+
+@media (max-width: 999px){
+.map img, .beach img {
+    width: 44%;
+}}
+
+map ol, .beach ol {
+    list-style-type: decimal;
+    margin: 0 0 0 20px;
+}
+
+/* 島の日々 */
+.clear:before, .clear:after, .attachment .entry-header:before, .attachment .entry-header:after, .site-footer .widget-area:before, .site-footer .widget-area:after, .entry-content:before, .entry-content:after, .page-content:before, .page-content:after, .navigation:before, .navigation:after, .nav-links:before, .nav-links:after, .gallery:before, .gallery:after, .comment-form-author:before, .comment-form-author:after, .comment-form-email:before, .comment-form-email:after, .comment-form-url:before, .comment-form-url:after, .comment-body:before, .comment-body:after {
+    content: "";
+    display: table;
+}
+
+.blog-content-area {
+    background-color: white;
+    margin: 20px 0;
+    padding: 40px 20px 40px 50px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #ddd;
+    border: 1px solid #eee;
+}
+
+@media (max-width: 999px) {
+.blog-content-area, .entry-content-area {
+    padding: 40px 20px;
+}}
+
+.entry-area {
+    width: 650px;
+    float: left;
+    height: 1323px;
+}
+
+
+@media (max-width: 998px){
+.entry-area {
+    /* height: 1352px; */
+    float: none;
+    width: 100%;
+} }
+
+@media (max-width: 998px) {
+.entry-area {
+    float: none;
+    width: 100%;
+}}
+
+.entry-area .hentry {
+    padding: 0;
+}
+
+.entry-thumbnail {
+    float: left;
+    background-color: black;
+}
+
+@media (max-width: 999px){
+.pc-tablet-only {
+    display: block;
+}}
+
+@media (max-width: 767px){
+.pc-tablet-only {
+    display: block;
+    }
+}
+
+
+@media (max-width: 999px) {
+.blog-content-area .entry-thumbnail, .entry-content-area .entry-thumbnail {
+    width: 30%;
+}}
+
+.entry-thumbnail img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 999px) {
+.entry-thumbnail img {
+    width: 100%;
+}}
+
+@media (max-width: 767px) {
+.entry-thumbnail img {
+    width: 100%;
+}}
+
+.entry-thumbnail a img {
+    -webkit-transition: opacity 0.4s linear;
+    -moz-transition: opacity 0.4s linear;
+    -o-transition: opacity 0.4s linear;
+    transition: opacity 0.4s linear;
+    box-shadow: 1px 1px 1px #ddd;
+}
+
+.entry-header .entry-list-content {
+    width: 428px;
+    /* これで右に並ぶ */
+    float: right;
+    padding-left: 10px;
+    /* これで左に空白を作る */
+    overflow: hidden;
+    /* ↑これは意味がわからない */
+    position: relative;
+    /* 何に過関係している？？？ */
+}
+
+@media (max-width: 999px){
+.blog-content-area .entry-list-content, .archive .entry-content-area .entry-list-content {
+    width: 68%;
+}}
+
+/* @media (max-width: 999px){
+.entry-header .entry-list-content {
+    446px: ;
+}} */
+
+h2 {
+    font-size: 20px;
+    margin: 22px 0;
+}
+
+.entry-title {
+    font-weight: normal;
+    margin: 0 0 5px;
+}
+
+.entry-time {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.entry-summary {
+    color: #aaa;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.read-this-entry {
+    margin: 0;
+    text-align: right;
+}
+
+hr {
+    background: url(images/dotted-line.png) repeat center top;
+    background-size: 4px 4px;
+    /* border: 0; */
+    font-style: dotted;
+    color: rgba(232, 231, 231);
+    opacity: 0,2;
+    /* ↑効かない。。。。。 */
+    height: 1px;
+    margin: 25px 0;
+}
+
+.sidebar {
+    width: 220px;
+    border-left: 1px solid #ddd;
+    float: right;
+    height: 1323px;
+}
+
+@media (max-width: 999px){
+.sidebar {
+    display: none;
+}}
+
+@media (max-width: 767px){
+.sidebar {
+    display: none;
+}}
+
+.sidebar h3 {
+    margin: 0 0 12px 0;
+    padding-left: 20px;
+    font-weight: normal;
+}
+
+.sidebar-recent-post {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.sidebar ul li {
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.sidebar .see-all-entry {
+    display: block;
+    text-align: right;
+    color: #666;
+    /* font-size: 15px; */
+}
+
+.paging-navigation {
+    padding: 10px 0;
+}
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+.paging-navigation .nav-links {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navigation .nav-previous {
+    float: left;
+}
+
+
+.navigation a {
+    color: #bc360a;
+}
+
+
+.paging-navigation a {
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.paging-navigation .meta-nav {
+    display: inline-block;
+    padding: 3px 0 8px;
+    text-align: center;
+}
+
