@@ -8,12 +8,8 @@ body{
  
    /* 全体の指定 */
 
-   .clearfix:after {
-    content: "";
-    clear: both;
-    display: block;
-}
 
+   
 body {
   /* width: 1170px;
   height: 600px; */
